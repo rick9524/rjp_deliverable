@@ -12,9 +12,10 @@ anaban = pd.read_csv('data_csv/あなたの番です.csv',parse_dates=["時間"]
 violet = pd.read_csv('data_csv/ヴァイオレットエヴァーガーデン.csv',parse_dates=["時間"])
 baton = pd.read_csv('data_csv/そしてバトンは渡された.csv',parse_dates=["時間"])
 hauru = pd.read_csv('data_csv/ハウルの動く城.csv',parse_dates=["時間"])
-pirates = pd.read_csv('data_csv/パイレーツオブカリビアン_呪われた海賊たち.csv',parse_dates=["時間"])
 mani = pd.read_csv('data_csv/思い出のマーニー.csv',parse_dates=["時間"])
 lovesong = pd.read_csv('data_csv/天使にラブ・ソングを.csv',parse_dates=["時間"])
+pirates_1 = pd.read_csv('data_csv/パイレーツオブカリビアン_呪われた海賊たち.csv',parse_dates=["時間"])
+pirates_2 = pd.read_csv('data_csv/パイレーツオブカリビアン_デッドマンズチェスト.csv',parse_dates=["時間"])
 
 st.title('タイトル')
 st.subheader('あらすじ')
