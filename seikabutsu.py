@@ -16,18 +16,29 @@ pirates = pd.read_csv('data_csv/パイレーツオブカリビアン_呪われ�
 mani = pd.read_csv('data_csv/思い出のマーニー.csv',parse_dates=["時間"])
 lovesong = pd.read_csv('data_csv/天使にラブ・ソングを.csv',parse_dates=["時間"])
 
-st.title('映画を観た感情の起伏')
+st.title('タイトル')
+st.subheader('あらすじ')
+st.write('いいいいいい')
 
-img = Image.open('スプラトゥーン3.jpg')
-if st.checkbox('check'):
-    st.image(img,caption='スプラトゥーン',use_column_width=True)
+img = Image.open('あなたの番です2.png',)
+imgg = Image.open('あなたの番です.png',)
 
-left_column,right_column = st.columns(2)
-left_column.image(img,caption='スプラトゥーン',use_column_width=True)
-right_column.image(img,caption='スプラトゥーン',use_column_width=True)
+col1, col2 = st.columns(2)
+with col1:
+    st.header("図1:感情を-1~1で表したヒストグラム")
+    st.image("あなたの番です2.png", use_column_width=True,width=10)
 
-expander = st.expander('連投')
-expander.image(img,caption='スプラトゥーン',use_column_width=True)
-expander.image(img,caption='スプラトゥーン',use_column_width=True)
-expander.image(img,caption='スプラトゥーン',use_column_width=True)
-expander.image(img,caption='スプラトゥーン',use_column_width=True)
+with col2:
+    st.header("図2:感情を6段階に分割した積み上げ面プロット")
+    st.image("あなたの番です.png", use_column_width=True,width=30)
+    
+st.subheader('グラフの解釈')
+st.write('うううううう')
+
+st.subheader('こんな方におすすめ')
+st.write('うううううう')
+
+
+
+st.write('・あああ　　・いいい　　・ううう')
+
