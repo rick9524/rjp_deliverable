@@ -29,7 +29,7 @@ elif selector==pagelist[1]:
         imgg = Image.open('あなたの番です.png',)
         st.header("図2:積み上げ面プロット")
         st.image("あなたの番です.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
         
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -49,7 +49,7 @@ elif selector==pagelist[2]:
         imgg = Image.open('ヴァイオレット2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("ヴァイオレット2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
         
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -67,7 +67,7 @@ elif selector==pagelist[3]:
         imgg = Image.open('思い出のマーニー2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("思い出のマーニー2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
         
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -85,7 +85,7 @@ elif selector==pagelist[4]:
         imgg = Image.open('バトン2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("バトン2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
 
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -103,7 +103,7 @@ elif selector==pagelist[5]:
         imgg = Image.open('天使にラブ・ソングを2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("天使にラブ・ソングを2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
 
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -121,7 +121,7 @@ elif selector==pagelist[6]:
         imgg = Image.open('パイレーツオブカリビアン_呪われた海賊たち2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("パイレーツオブカリビアン_呪われた海賊たち2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
 
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -139,7 +139,7 @@ elif selector==pagelist[7]:
         imgg = Image.open('パイレーツオブカリビアン_デッドマンズチェスト2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("パイレーツオブカリビアン_デッドマンズチェスト2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
 
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -157,7 +157,7 @@ elif selector==pagelist[8]:
         imgg = Image.open('パイレーツオブカリビアン_エンドワールド2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("パイレーツオブカリビアン_エンドワールド2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
 
         st.subheader('グラフの解釈')
         st.write(kai[selector])
@@ -175,7 +175,7 @@ elif selector==pagelist[9]:
         imgg = Image.open('ハウル2.png',)
         st.header("図2:積み上げ面プロット")
         st.image("ハウル2.png", use_column_width=True,width=30)
-        st.markdown('数字が大きい程ポジティブ(青(0)＞橙(1)＞緑(2)＞赤(3)＞紫(4)＞茶(5)＞桃(6)),横軸は時間、縦軸はツイート数')
+        st.markdown('数字が大きい程ポジティブ(青(0)＜橙(1)＜緑(2)＜赤(3)＜紫(4)＜茶(5)＜桃(6)),横軸は時間、縦軸はツイート数')
         st.subheader('グラフの解釈')
         st.write(kai[selector])
         st.subheader('こんな方におすすめ')
